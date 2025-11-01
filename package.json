@@ -1,12 +1,12 @@
 {
   "name": "turo-backend",
-  "version": "1.0.0",
-  "description": "Groq chat + YouTube & Project Gutenberg recommendations",
-  "main": "src/index.js",
+  "version": "2.0.0",
+  "description": "Node wrapper around Python TF NLP for recommendations + chat + APIs",
+  "main": "src/server.js",
   "type": "commonjs",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "NODE_ENV=development nodemon src/server.js"
   },
   "engines": {
     "node": ">=18"

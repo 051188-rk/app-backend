@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { streamCompletion, completeOnce } = require('../utils/groq');
-const { expansions } = require('../utils/nlp');
+const { expansions } = require('../utils/python_nlp');
 const { searchYouTube } = require('../utils/youtube');
 const { searchBooks } = require('../utils/gutenberg');
 const { dedupeBy } = require('../utils/dedupe');
